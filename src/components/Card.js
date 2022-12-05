@@ -9,7 +9,7 @@ const Card = ({ title, name, description }) => {
 
         >
             <h3 id={`${title}-title`}>{name}</h3>
-            <p id={`${title}-description`}>{description}  </p>
+            <p id={`${title}-description`}>{description}</p>
         </article>
     )
 }
