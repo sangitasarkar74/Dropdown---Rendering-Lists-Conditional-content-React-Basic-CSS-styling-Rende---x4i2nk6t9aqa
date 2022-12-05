@@ -6,9 +6,9 @@ const Card = ({ title, name, description }) => {
             padding: "0.5rem",
             margin: "0.5rem 0"
         }}
-            id={`${title}-title`}
+        // id={`${title}-title`}
         >
-            <h3 id={`${title}-name`}>{name}</h3>
+            <h3 id={`${title}-titlegit`}>{name}</h3>
             <p id={`${title}-description`}>{description}  </p>
         </article>
     )
